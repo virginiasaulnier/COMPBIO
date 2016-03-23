@@ -15,5 +15,4 @@ Phenotype file = HapMap3-genotypes folder on BOX -> relationships_w_pops_121708.
     >setwd("/home/wheelerlab1")
 
   For Parser:
-  
-    DGN files in practice data as example for format
+  DGN files in practice data as example for format
