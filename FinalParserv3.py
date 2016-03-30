@@ -7,11 +7,13 @@ import re
 print time.time()
 Entrez.email = "jeffng29@gmail.com"
 os.chdir ('F:\COMP 383 Final Project')
+##needs to be changed to Version 2, not Version 3. Version 2 is used in HapMap
 reader = open('HumanWG-6_V3_0_R3_11282955_A.txt','r')
+##gene ids
 reader1 = open ('idsTable.txt','r')
 
 i=0
-#Moves to the correct line in the HumanWG file
+#Moves to the correct line in the HumanWG file, skips comment lines
 while i<1:
     line = reader.readline()
     if line.startswith('[Probes]'):
@@ -25,7 +27,9 @@ line1 = reader1.readline()
 ilmntoENSG = {}
 ilmnchromo = {}
 #Extracts data from idsTable, placing the information into the various dictionaries
+#tests time
 print time.time()
+#pulls data from table
 while i < 1:
     line1 = reader1.readline()
     if line1 == '':
@@ -42,6 +46,7 @@ while i < 1:
                 ilmntoENSG[linelist1[1]] = actualid
             else:
                 ilmntoENSG[linelist1[1]]=linelist1[4]
+#testers 
 i=0
 hi=0
 hihi=0
