@@ -10,9 +10,9 @@
 
   We are working to expand genetic predictors of gene expression in additional world populations using SNP data alongside gene expression levels from the third phase of the International [*HapMap*](http://hapmap.ncbi.nlm.nih.gov/index.html.en)  Project.
   
->Populations include East African, West African, East Asian, and Mexican ancestry.
+-Populations include East African, West African, East Asian, and Mexican ancestry.
   
->Elastic net modeling is used to select genotypes and weights to best predict expression of each gene
+-Elastic net modeling is used to select genotypes and weights to best predict expression of each gene
 
 **Methods**
 
@@ -22,10 +22,11 @@
 
   We hope to interpret results to answer:
   
-> Are predictors similar among diverse populations, or unique?
+-Are predictors similar among diverse populations, or unique?
   
-> Can we better predict gene expression when samples from diverse populations are combined rather than modeled singly?
+-Can we better predict gene expression when samples from diverse populations are combined rather than modeled singly?
 
->When testing predicted expression for associated traits, are new genes implicated, or were the genes previously found in European cohorts?
+-When testing predicted expression for associated traits, are new genes implicated, or were the genes previously found in European cohorts?
   
   The hope is to advance biological knowledge of the underlying mechanisms of disease risk not assessed in GWAS studies alone. PrediXcan provides direction of effect, which may yield opportunities for therapeutic development and drug targets.
+
