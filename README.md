@@ -31,3 +31,4 @@ The hope is to advance biological knowledge of the underlying mechanisms of dise
 - The R program included intersects SNP data from a population with Illumina IDs
 - The information is then processed using an elastic net model to quantify gene expression
 - The R code has been commented to assist you in running the data
+- Sample data has been provided for you as our dataset is quite large. The sample data is only for one gene.
