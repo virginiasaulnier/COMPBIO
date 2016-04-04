@@ -30,3 +30,4 @@
 
 The hope is to advance biological knowledge of the underlying mechanisms of disease risk not assessed in GWAS studies alone. PrediXcan provides direction of effect, which may yield opportunities for therapeutic development and drug targets.
 
+**Cross-team Hacking** :computer:
