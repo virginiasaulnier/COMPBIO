@@ -31,3 +31,6 @@
 The hope is to advance biological knowledge of the underlying mechanisms of disease risk not assessed in GWAS studies alone. PrediXcan provides direction of effect, which may yield opportunities for therapeutic development and drug targets.
 
 **Cross-team Hacking** :computer:
+- The R program included intersects SNP data from a population with Illumina IDs
+- The information is then processed using an elastic net model to quantify gene expression
+- The R code has been commented to assist you in running the data
