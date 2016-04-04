@@ -8,7 +8,7 @@
   
 **Objective**
 
-  We are working to expand genetic predictors of gene expression in additional world populations using SNP data alongside gene expression levels from the third phase of the International [* *HapMap* *](http://hapmap.ncbi.nlm.nih.gov/index.html.en)  Project.
+  We are working to expand genetic predictors of gene expression in additional world populations using SNP data alongside gene expression levels from the third phase of the International [*HapMap*](http://hapmap.ncbi.nlm.nih.gov/index.html.en)  Project.
   
 >Populations include East African, West African, East Asian, and Mexican ancestry.
   
