@@ -1,12 +1,12 @@
 #Predicting Gene Regulation in Diverse Global Populations
 
-###By Alexa Badalamenti, Jeffry Ng, Virginia Saulnier, Shyam Shah, and Heather E. Wheeler
+##By Alexa Badalamenti, Jeffry Ng, Virginia Saulnier, Shyam Shah, and Heather E. Wheeler
 
-#**Introduction**
+**Introduction**
 
   Most studies focus on populations of European ancestry. While genomic research has broadened knowledge on human genetics, work is needed to expand this knowledge to more diverse groups, otherwise an entire breadth of useful information is missing.
   
-#**Objective**
+**Objective**
 
   We are working to expand genetic predictors of gene expression in additional world populations using SNP data alongside gene expression levels from the third phase of the International [* *HapMap* *](http://hapmap.ncbi.nlm.nih.gov/index.html.en)  Project.
   
@@ -14,11 +14,11 @@
   
 >Elastic net modeling is used to select genotypes and weights to best predict expression of each gene
 
-#**Methods**
+**Methods**
 
   A large portion of phenotypic variability in disease risk is die to regulatory variants which regulate gene expression levels. [* *PrediXcan* *](http://www.nature.com/ng/journal/v47/n9/full/ng.3367.html) is a gene-based association method, testing the mediating effects of gene expression levels by quantifying association between genetically regulated expression levels (GReX) and the phenotypic trait of interest. Gene expression can be decomposed into three basic components: what is genetically determined (GReX), what is altered by the phenotypic trait of interest, and remaining factors (including environment)
 
-#**Future Applications**
+**Future Applications**
 
   We hope to interpret results to answer:
   
