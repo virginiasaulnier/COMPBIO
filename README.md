@@ -16,7 +16,7 @@
 
 **Methods**
 
-  A large portion of phenotypic variability in disease risk is die to regulatory variants which regulate gene expression levels. [* *PrediXcan* *](http://www.nature.com/ng/journal/v47/n9/full/ng.3367.html) is a gene-based association method, testing the mediating effects of gene expression levels by quantifying association between genetically regulated expression levels (GReX) and the phenotypic trait of interest. Gene expression can be decomposed into three basic components: what is genetically determined (GReX), what is altered by the phenotypic trait of interest, and remaining factors (including environment)
+  A large portion of phenotypic variability in disease risk is die to regulatory variants which regulate gene expression levels. [*PrediXcan*](http://www.nature.com/ng/journal/v47/n9/full/ng.3367.html) is a gene-based association method, testing the mediating effects of gene expression levels by quantifying association between genetically regulated expression levels (GReX) and the phenotypic trait of interest. Gene expression can be decomposed into three basic components: what is genetically determined (GReX), what is altered by the phenotypic trait of interest, and remaining factors (including environment)
 
 **Future Applications**
 
