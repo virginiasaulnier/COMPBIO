@@ -1,6 +1,6 @@
 #Predicting Gene Regulation in Diverse Global Populations
 
-######By Alexa Badalamenti, Jeffry Ng, Virginia Saulnier, Shyam Shah, and Heather E. Wheeler
+######By Alexa Badalamenti, Jeffrey Ng, Virginia Saulnier, Shyam Shah, and Heather E. Wheeler
 
 **Introduction**
 
