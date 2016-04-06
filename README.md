@@ -32,3 +32,4 @@ The hope is to advance biological knowledge of the underlying mechanisms of dise
 - The information is then processed using an elastic net model to quantify gene expression
 - The R code has been commented to assist you in running the data
 - Sample data has been provided for you as our dataset is quite large. The sample data is only for one gene.
+- The out file is linked [here](https://drive.google.com/file/d/0B57ql7RvSnZiQVJ0UEZNek9ZRlE/view?usp=sharing) as it is too large to upload directly to github
