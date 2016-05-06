@@ -1,6 +1,6 @@
 #Predicting Gene Regulation in Diverse Global Populations
 
-######By Alexa Badalamenti, Jeffrey Ng, Virginia Saulnier, Shyam Shah, and Heather E. Wheeler
+######By Alexa Badalamenti, Jeffrey Ng, Virginia Saulnier, Shyam Shah, and Dr. Heather E. Wheeler
 
 **Introduction**
 
@@ -11,11 +11,11 @@
   We are working to expand genetic predictors of gene expression in additional world populations using SNP data alongside gene expression levels from the third phase of the International [*HapMap*](http://hapmap.ncbi.nlm.nih.gov/index.html.en)  Project.
   
 - Populations include East African, West African, East Asian, and Mexican ancestry.
-- Elastic net modeling is used to select genotypes and weights to best predict expression of each gene
+- Elastic net modeling is used to select genotypes and weights to best predict expression of each gene using the [glmnet](https://cran.r-project.org/web/packages/glmnet/index.html) package for R.
 
 **Methods**
 
-  A large portion of phenotypic variability in disease risk is die to regulatory variants which regulate gene expression levels. [*PrediXcan*](http://www.nature.com/ng/journal/v47/n9/full/ng.3367.html) is a gene-based association method, testing the mediating effects of gene expression levels by quantifying association between genetically regulated expression levels (GReX) and the phenotypic trait of interest. Gene expression can be decomposed into three basic components: what is genetically determined (GReX), what is altered by the phenotypic trait of interest, and remaining factors (including environment)
+  A large portion of phenotypic variability in disease risk is due to regulatory variants which regulate gene expression levels. [*PrediXcan*](http://www.nature.com/ng/journal/v47/n9/full/ng.3367.html) is a gene-based association method, testing the mediating effects of gene expression levels by quantifying association between genetically regulated expression levels (GReX) and the phenotypic trait of interest. Gene expression can be decomposed into three basic components: what is genetically determined (GReX), what is altered by the phenotypic trait of interest, and remaining factors (including environment)
 
 **Future Applications**
 
@@ -26,10 +26,3 @@
 - When testing predicted expression for associated traits, are new genes implicated, or were the genes previously found in European cohorts?
 
 The hope is to advance biological knowledge of the underlying mechanisms of disease risk not assessed in GWAS studies alone. PrediXcan provides direction of effect, which may yield opportunities for therapeutic development and drug targets.
-
-**Cross-team Hacking** :computer:
-- The R program included intersects SNP data from a population with Illumina IDs
-- The information is then processed using an elastic net model to quantify gene expression
-- The R code has been commented to assist you in running the data
-- Sample data has been provided for you as our dataset is quite large. The sample data is only for one gene.
-- The out file is linked [here](https://drive.google.com/file/d/0B57ql7RvSnZiQVJ0UEZNek9ZRlE/view?usp=sharing) as it is too large to upload directly to github
